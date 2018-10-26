@@ -1,17 +1,28 @@
 <?php
 
-/*
-|--------------------------------------------------------------------------
-| Application Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register all of the routes for an application.
-| It is a breeze. Simply tell Lumen the URIs it should respond to
-| and give it the Closure to call when that URI is requested.
-|
-*/
+$router->get('/', [
+    'uses' => 'VueController@index'
+]);
 
-$router->get('/', function () use ($router) 
+$router->group(['prefix' => 'api/v1'], function () use ($router)
 {
-    return view('index');
+    $router->get('posts',  [
+        'uses' => 'BlogController@showAllPosts'
+    ]);
+
+    $router->get('posts/{id}', [
+        'uses' => 'BlogController@showOnePost'
+    ]);
+
+    $router->post('posts', [
+        'uses' => 'BlogController@create'
+    ]);
+
+    $router->delete('posts/{id}', [
+        'uses' => 'BlogController@delete'
+    ]);
+
+    $router->put('posts/{id}', [
+        'uses' => 'BlogController@update'
+    ]);
 });

@@ -4,6 +4,9 @@ import Menu from './components/menu.vue';
 import Footer from './components/footer.vue';
 import Vuetify from 'vuetify'
 import 'vuetify/dist/vuetify.min.css';
+import axios from 'axios';
+
+Vue.prototype.$http = axios;
 
 Vue.use(Vuetify);
 

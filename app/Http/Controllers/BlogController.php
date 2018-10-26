@@ -2,16 +2,22 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Services\PostServiceInterface;
+use Illuminate\Http\JsonResponse;
+
 class BlogController extends Controller
 {
-    public function showAllPosts()
-    {
-        $posts = [
-            ['id'  => 1, 'title' => 'My Laravel', 'text' => 'Cras facilisis mi vitae nunc lobortis pharetra. Nulla volutpat tincidunt ornare. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam in aliquet odio. Aliquam eu est vitae tellus bibendum tincidunt. Suspendisse potenti.'],
-            ['id' => 2, 'title' => 'My Symfony', 'text' => 'The symfony'],
-            ['id' => 3, 'title' => 'My Symfony', 'text' => 'The symfony'],
-        ];
+    private $postService;
 
-        return response()->json($posts);
+    public function __construct(
+        PostServiceInterface $postService
+    )
+    {
+        $this->postService = $postService;
+    }
+
+    public function showAllPosts(): JsonResponse
+    {
+        return response()->json($this->postService->getPosts());
     }
 }

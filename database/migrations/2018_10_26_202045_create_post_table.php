@@ -15,11 +15,11 @@ class CreatePostTable extends Migration
     {
         Schema::create('Post', function (Blueprint $table)
         {
-            $table->increments('id');
+            $table->increments('id')->unsigned();
             $table->string('subject', 255)->default(null);
             $table->longText('text')->default(null);
-            $table->integer('views')->default(0);
-            $table->integer('likes')->default(0);
+            $table->integer('views')->default(0)->unsigned();
+            $table->integer('likes')->default(0)->unsigned();
             $table->integer('createdAt')->default(0);
         });
     }

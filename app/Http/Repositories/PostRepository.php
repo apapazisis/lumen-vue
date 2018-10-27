@@ -18,6 +18,6 @@ class PostRepository implements PostRepositoryInterface
 
     public function getPosts(): Collection
     {
-        return $this->postModel->orderBy('created', 'desc')->all();
+        return $this->postModel->orderBy('createdAt', 'desc')->get();
     }
 }

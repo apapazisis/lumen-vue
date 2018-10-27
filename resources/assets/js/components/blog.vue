@@ -13,7 +13,7 @@
                 </v-flex>
                 <v-flex xs12>
                     <v-container grid-list-xl>
-                        <v-layout row wrap align-center>
+                        <v-layout v-if="posts.length" row wrap align-center>
                             <v-flex xs12 md4 v-for="post in posts" :key="post.id">
                                 <v-card class="elevation-0 transparent">
                                     <v-card-text class="text-xs-center">
@@ -28,6 +28,7 @@
                                 </v-card>
                             </v-flex>
                         </v-layout>
+                        <span v-else>Es gibt keine Beiträge</span>
                     </v-container>
                 </v-flex>
             </v-layout>

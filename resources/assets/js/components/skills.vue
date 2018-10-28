@@ -18,9 +18,7 @@
                                 <div class="headline text-xs-center">Laravel & Lumen</div>
                             </v-card-title>
                             <v-card-text>
-                                Cras facilisis mi vitae nunc lobortis pharetra. Nulla volutpat tincidunt ornare.
-                                Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-                                Nullam in aliquet odio. Aliquam eu est vitae tellus bibendum tincidunt. Suspendisse potenti.
+                                Cras
                             </v-card-text>
                         </v-card>
                     </v-flex>
@@ -33,9 +31,7 @@
                                 <div class="headline">Vue.Js</div>
                             </v-card-title>
                             <v-card-text>
-                                Cras facilisis mi vitae nunc lobortis pharetra. Nulla volutpat tincidunt ornare.
-                                Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-                                Nullam in aliquet odio. Aliquam eu est vitae tellus bibendum tincidunt. Suspendisse potenti.
+                                Cras
                             </v-card-text>
                         </v-card>
                     </v-flex>
@@ -48,9 +44,7 @@
                                 <div class="headline text-xs-center">PHP Design Patterns</div>
                             </v-card-title>
                             <v-card-text>
-                                Cras facilisis mi vitae nunc lobortis pharetra. Nulla volutpat tincidunt ornare.
-                                Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-                                Nullam in aliquet odio. Aliquam eu est vitae tellus bibendum tincidunt. Suspendisse potenti.
+                                Cras
                             </v-card-text>
                         </v-card>
                     </v-flex>
@@ -63,9 +57,7 @@
                                 <div class="headline text-xs-center">Node Package Manager (NPM)</div>
                             </v-card-title>
                             <v-card-text>
-                                Cras facilisis mi vitae nunc lobortis pharetra. Nulla volutpat tincidunt ornare.
-                                Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-                                Nullam in aliquet odio. Aliquam eu est vitae tellus bibendum tincidunt. Suspendisse potenti.
+                                Cras
                             </v-card-text>
                         </v-card>
                     </v-flex>
@@ -78,9 +70,7 @@
                                 <div class="headline text-xs-center">Webpack</div>
                             </v-card-title>
                             <v-card-text>
-                                Cras facilisis mi vitae nunc lobortis pharetra. Nulla volutpat tincidunt ornare.
-                                Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-                                Nullam in aliquet odio. Aliquam eu est vitae tellus bibendum tincidunt. Suspendisse potenti.
+                                Cras
                             </v-card-text>
                         </v-card>
                     </v-flex>
@@ -93,9 +83,7 @@
                                 <div class="headline text-xs-center">Javascript</div>
                             </v-card-title>
                             <v-card-text>
-                                Cras facilisis mi vitae nunc lobortis pharetra. Nulla volutpat tincidunt ornare.
-                                Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-                                Nullam in aliquet odio. Aliquam eu est vitae tellus bibendum tincidunt. Suspendisse potenti.
+                                Cras
                             </v-card-text>
                         </v-card>
                     </v-flex>
@@ -108,9 +96,7 @@
                                 <div class="headline text-xs-center">MySQL</div>
                             </v-card-title>
                             <v-card-text>
-                                Cras facilisis mi vitae nunc lobortis pharetra. Nulla volutpat tincidunt ornare.
-                                Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-                                Nullam in aliquet odio. Aliquam eu est vitae tellus bibendum tincidunt. Suspendisse potenti.
+                                Cras f
                             </v-card-text>
                         </v-card>
                     </v-flex>
@@ -123,9 +109,7 @@
                                 <div class="headline text-xs-center">Redis</div>
                             </v-card-title>
                             <v-card-text>
-                                Cras facilisis mi vitae nunc lobortis pharetra. Nulla volutpat tincidunt ornare.
-                                Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-                                Nullam in aliquet odio. Aliquam eu est vitae tellus bibendum tincidunt. Suspendisse potenti.
+                                Cras
                             </v-card-text>
                         </v-card>
                     </v-flex>
@@ -138,9 +122,7 @@
                                 <div class="headline text-xs-center">JIRA</div>
                             </v-card-title>
                             <v-card-text>
-                                Cras facilisis mi vitae nunc lobortis pharetra. Nulla volutpat tincidunt ornare.
-                                Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-                                Nullam in aliquet odio. Aliquam eu est vitae tellus bibendum tincidunt. Suspendisse potenti.
+                                Cras
                             </v-card-text>
                         </v-card>
                     </v-flex>

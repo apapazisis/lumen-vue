@@ -10,87 +10,91 @@
             <v-container grid-list-xl>
                 <v-layout row wrap align-center>
                     <v-flex xs12 md4>
-                        <div>
-                            <v-card class="my-3" hover>
-                                <v-img src="images/ihandel.jpg" aspect-ratio="2.75"></v-img>
-                                <v-card-title primary-title>
+                        <v-card class="elevation-0">
+                            <v-img src="images/ihandel.jpg" aspect-ratio="2.75"></v-img>
+                            <v-card-title primary-title>
+                                <div>
+                                    <h3 class="headline mb-0">iHandel</h3>
                                     <div>
-                                        <h3 class="headline mb-0">iHandel</h3>
-                                        <div>Verwaltungssystem für Bestellungen<br>
-                                            Eine Plattform für die Großhändler
-                                        </div>
+                                        Verwaltungssystem für Bestellungen<br>
+                                        Eine Plattform für die Großhändler
                                     </div>
-                                </v-card-title>
-                                <v-card-actions>
-                                    <v-btn icon class="red--text">
-                                        <v-icon medium>fa-reddit</v-icon>
-                                    </v-btn>
-                                    <v-btn icon class="light-blue--text">
-                                        <v-icon medium>fa-twitter</v-icon>
-                                    </v-btn>
-                                    <v-btn icon class="blue--text text--darken-4">
-                                        <v-icon medium>fa-facebook</v-icon>
-                                    </v-btn>
-                                </v-card-actions>
-                            </v-card>
-                        </div>
+                                </div>
+                            </v-card-title>
+                        </v-card>
                     </v-flex>
                     <v-flex xs12 md4>
-                        <div>
-                            <v-card class="my-3" hover>
-                                <v-card-media
-                                        class="white--text"
-                                        height="170px"
-                                        src="https://cdn.vuetifyjs.com/images/cards/desert.jpg"
-                                >
-                                    <v-container fill-height fluid>
-                                        <v-layout>
-                                            <v-flex xs12 align-end d-flex>
-                                                <span class="headline">iHandel</span>
-                                            </v-flex>
-                                        </v-layout>
-                                    </v-container>
-                                </v-card-media>
-                                <v-card-text>
-                                    Fusce ullamcorper tellus sed maximus rutrum. Donec imperdiet ultrices maximus. Donec non tellus non neque pellentesque fermentum. Aenean in pellentesque urna. Mauris aliquet elit rutrum lorem fermentum, id lobortis arcu facilisis. Mauris ut justo magna. Vivamus euismod fringilla.
-                                </v-card-text>
-                                <v-card-actions>
-                                    <v-btn icon class="red--text">
-                                        <v-icon medium>fa-reddit</v-icon>
-                                    </v-btn>
-                                    <v-btn icon class="light-blue--text">
-                                        <v-icon medium>fa-twitter</v-icon>
-                                    </v-btn>
-                                    <v-btn icon class="blue--text text--darken-4">
-                                        <v-icon medium>fa-facebook</v-icon>
-                                    </v-btn>
-                                    <v-spacer></v-spacer>
-                                    <v-btn flat class="blue--text">Read More</v-btn>
-                                </v-card-actions>
-                            </v-card>
-                        </div>
+                        <v-card class="elevation-0">
+                            <v-img src="images/veo.jpg" aspect-ratio="2.75"></v-img>
+                            <v-card-title primary-title>
+                                <div>
+                                    <h3 class="headline mb-0">VEO</h3>
+                                    <br>
+                                    <div>
+                                        Verwaltungssystem für Patienten
+                                    </div>
+                                </div>
+                            </v-card-title>
+                        </v-card>
                     </v-flex>
                     <v-flex xs12 md4>
-                        <div>
-                            <v-card class="my-3" hover>
-                                <v-card-media
-                                        class="white--text"
-                                        height="170px"
-                                        src="https://cdn.vuetifyjs.com/images/cards/desert.jpg"
-                                >
-                                    <v-container fill-height fluid>
-                                        <v-layout>
-                                            <v-flex xs12 align-end d-flex>
-                                                <span class="headline">iHandel</span>
-                                            </v-flex>
-                                        </v-layout>
-                                    </v-container>
-                                </v-card-media>
-                                <v-card-text>
-                                    Fusce ullamcorper tellus sed maximus rutrum. Donec imperdiet ultrices maximus. Donec non tellus non neque pellentesque fermentum. Aenean in pellentesque urna. Mauris aliquet elit rutrum lorem fermentum, id lobortis arcu facilisis. Mauris ut justo magna. Vivamus euismod fringilla.
-                                </v-card-text>
-                            </v-card>
-                        </div>
+                        <v-card class="elevation-0">
+                            <v-img
+                                    src="images/kreta.jpg"
+                                    aspect-ratio="2.75"
+                            ></v-img>
+                            <v-card-title primary-title>
+                                <div>
+                                    <h3 class="headline mb-0">Kreta Lebensmittel</h3>
+                                    <br>
+                                    <div>
+                                        e-Commerce
+                                    </div>
+                                </div>
+                            </v-card-title>
+                        </v-card>
+                    </v-flex>
+                    <v-flex xs12 md4>
+                        <v-card class="elevation-0">
+                            <v-img src="images/pesman.jpg" aspect-ratio="2.75"></v-img>
+                            <v-card-title primary-title>
+                                <div>
+                                    <h3 class="headline mb-0">PESMAN</h3>
+                                    <br>
+                                    <div>
+                                        e-Commerce
+                                    </div>
+                                </div>
+                            </v-card-title>
+                        </v-card>
+                    </v-flex>
+                    <v-flex xs12 md4>
+                        <v-card class="elevation-0">
+                            <v-img src="images/b4vue.jpg" aspect-ratio="2.75"></v-img>
+                            <v-card-title primary-title>
+                                <div>
+                                    <h3 class="headline mb-0">Bootstrap 4 Vue.Js</h3>
+                                    <br>
+                                    <div>
+                                        Integrated Bootstrap 4 with Vue.js
+                                    </div>
+                                </div>
+                            </v-card-title>
+                        </v-card>
+                    </v-flex>
+                    <v-flex xs12 md4>
+                        <v-card class="elevation-0">
+                            <v-img src="images/lukullus.jpg" aspect-ratio="2.75"></v-img>
+                            <v-card-title primary-title>
+                                <div>
+                                    <h3 class="headline mb-0">Lukullus Restaurant</h3>
+                                    <br>
+                                    <div>
+                                        Präsentation Webseite
+                                    </div>
+                                </div>
+                            </v-card-title>
+                        </v-card>
                     </v-flex>
                 </v-layout>
             </v-container>
@@ -99,7 +103,5 @@
 </template>
 
 <script>
-    export default {
 
-    }
 </script>

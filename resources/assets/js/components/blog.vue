@@ -13,7 +13,8 @@
                 </v-flex>
                 <v-flex xs12>
                     <v-container grid-list-xl>
-                        <v-layout v-if="posts.length" row wrap align-center>
+                        <v-progress-circular v-if="flag" indeterminate color="primary"></v-progress-circular>
+                        <v-layout v-else-if="posts.length > 0" row wrap align-center>
                             <v-flex xs12 md4 v-for="post in posts" :key="post.id">
                                 <v-card class="elevation-0 transparent">
                                     <v-card-text class="text-xs-center">
@@ -36,7 +37,7 @@
                                 </v-card>
                             </v-flex>
                         </v-layout>
-                        <span v-else>Es gibt keine Beiträge</span>
+                        <span v-else-if="flag === false && posts.length === 0">Es gibt keine Beiträge</span>
                     </v-container>
                 </v-flex>
             </v-layout>
@@ -50,7 +51,8 @@
     export default {
         data() {
             return {
-                posts: []
+                posts: [],
+                flag: true
             }
         },
         components: {
@@ -62,7 +64,10 @@
             }
         },
         mounted() {
-            this.$http.get('api/v1/posts').then(response => this.posts = response.data);
+            this.$http
+                .get('api/v1/posts')
+                .then(response => this.posts = response.data)
+                .then(this.flag = false);
         },
         methods: {
             limitCharacters(text) {

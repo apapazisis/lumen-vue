@@ -25,6 +25,14 @@
                                     <v-card-text>
                                         {{ limitCharacters(post.text) }}
                                     </v-card-text>
+                                    <v-card-actions>
+                                        <v-btn icon class="light-blue--text">
+                                            <v-icon medium>thumb_up_alt</v-icon>
+                                        </v-btn>
+                                        <v-icon medium>remove_red_eye</v-icon>
+                                        <v-spacer></v-spacer>
+                                        <v-btn flat class="blue--text">Read More</v-btn>
+                                    </v-card-actions>
                                 </v-card>
                             </v-flex>
                         </v-layout>

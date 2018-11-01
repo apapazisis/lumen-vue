@@ -11,6 +11,20 @@
                 <v-layout row wrap align-center>
                     <v-flex xs12 md4>
                         <v-card class="elevation-0">
+                            <v-img src="images/werkster.jpg" aspect-ratio="2.75"></v-img>
+                            <v-card-title primary-title>
+                                <div>
+                                    <h3 class="headline mb-0">Werkster</h3>
+                                    <div>
+                                        Handwerker-Netzwerk<br>
+                                        WERKSTER ist das erste digitale Netzwerk speziell fürs Handwerk.
+                                    </div>
+                                </div>
+                            </v-card-title>
+                        </v-card>
+                    </v-flex>
+                    <v-flex xs12 md4>
+                        <v-card class="elevation-0">
                             <v-img src="images/ihandel.jpg" aspect-ratio="2.75"></v-img>
                             <v-card-title primary-title>
                                 <div>
@@ -87,7 +101,7 @@
                             <v-img src="images/lukullus.jpg" aspect-ratio="2.75"></v-img>
                             <v-card-title primary-title>
                                 <div>
-                                    <h3 class="headline mb-0">Lukullus Restaurant</h3>
+                                    <h3 class="headline mb-0">Lukullus</h3>
                                     <br>
                                     <div>
                                         Präsentation Webseite

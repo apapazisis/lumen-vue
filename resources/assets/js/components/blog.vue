@@ -1,7 +1,7 @@
 <template>
     <div>
         <section>
-            <parallax src="images/laravue.png"></parallax>
+            <parallax src="images/laravel.jpg" title="Blog"></parallax>
         </section>
         <section>
             <v-layout column wrap class="my-5" align-center>
@@ -17,9 +17,7 @@
                         <v-layout v-else-if="posts.length > 0" row wrap align-center>
                             <v-flex xs12 md4 v-for="post in posts" :key="post.id">
                                 <v-card class="elevation-0 transparent">
-                                    <v-card-text class="text-xs-center">
-                                        <v-icon x-large class="blue--text text--lighten-2">color_lens</v-icon>
-                                    </v-card-text>
+                                    <v-img :src="getImageUrl(post.image)" aspect-ratio="2.75"></v-img>
                                     <v-card-title primary-title class="layout justify-center">
                                         <div class="headline text-xs-center">{{ post.title }}</div>
                                     </v-card-title>
@@ -72,6 +70,10 @@
         methods: {
             limitCharacters(text) {
                 return text.substring(0, 280);
+            },
+            getImageUrl(image)
+            {
+                return 'images/' + image;
             }
         }
     }

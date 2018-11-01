@@ -18,6 +18,7 @@ class CreatePostTable extends Migration
             $table->increments('id')->unsigned();
             $table->string('subject', 255)->default(null);
             $table->longText('text')->default(null);
+            $table->string('image')->default(null);
             $table->integer('views')->default(0)->unsigned();
             $table->integer('likes')->default(0)->unsigned();
             $table->integer('createdAt')->default(0);

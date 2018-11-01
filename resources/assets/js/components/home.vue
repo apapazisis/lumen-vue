@@ -1,7 +1,7 @@
 <template>
     <div>
         <section>
-            <parallax src="images/laravel.jpg" title="Apostolos Papazisis" subtitle="Laravel & Vue.Js Entwickler"></parallax>
+            <parallax src="images/laravel.jpg" title="Apostolos Papazisis" subtitle="Laravel, Lumen & Vue.Js Entwickler"></parallax>
         </section>
         <section>
             <about></about>
